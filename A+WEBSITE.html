@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A+ Academy Coaching Classes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fce4d5;
+        }
+        .hero-section {
+            padding: 50px 0;
+        }
+        .form-section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #ff4d4d;
+            border-color: #ff4d4d;
+        }
+        .btn-primary:hover {
+            background-color: #e64444;
+            border-color: #e64444;
+        }
+        .logo {
+            max-width: 200px;
+        }
+        body {
+            background-color: #fce4d5;
+        }
+        .hero-section, .content-section {
+            padding: 50px 0;
+        }
+        .content-section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #ff4d4d;
+            border-color: #ff4d4d;
+        }
+        .btn-primary:hover {
+            background-color: #e64444;
+            border-color: #e64444;
+        }
+        .highlight {
+            color: #ff4d4d;
+            font-weight: bold;
+        }
+        .text-center-btn {
+            text-align: center;
+        }
+   
+     body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .highlight {
+            color: #ff4d4d;
+            font-weight: bold;
+        }
+    .para{
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+.button{
+    height: 70px;
+    width: 50;
+   color: white;
+   border: none;
+   padding: 10px 15 px;
+   font-size: 1rem;
+   border-radius: 5px;  
+}
+.button-grid button{
+    background-color: #e68139;
+}
+.button-grid{
+display: grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+}
+
+.visit-button{
+    margin-top: 20px;
+    
+}
+
+.visit-button button{
+    width:50%;
+    font-size: 1.2rem;
+    background-color: #e68139;
+    position:relative;
+}
+#cards{
+margin-top: 40px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid rgb(241, 236, 236);
+    
+    background: size 700px;
+}
+   
+       .contact-section, .classes-section {
+        padding: 50px 0;
+    }
+    .contact-section {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .faq-section {
+            padding: 50px 20px;
+        }
+        .faq-section h2 {
+            color: #ff4d4d;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .accordion-button {
+            background-color: #ffccb3;
+            color: #333;
+            border: 1px solid #ff9933;
+        }
+        .accordion-button:hover {
+            background-color: #ffc299;
+        }
+        .accordion-item {
+            border: none;
+        }
+        .btn-custom {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        .btn-custom:hover {
+            background-color: #e64444;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .section h2 {
+            color: #ff4d4d;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #ff4d4d;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #333;
+        }
+        .btn-custom {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        .btn-custom:hover {
+            background-color: #e64444;
+        }
+        .content {
+            color: #333;
+            line-height: 1.6;
+        }
+        .achievers-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .achievers-section h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ff4d4d;
+        }
+        .achievers-section h2 span {
+            color: #000;
+        }
+        .achievers-grid {
+            margin-top: 30px;
+        }
+        .achiever-card {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .achiever-card img {
+            width: 100%;
+            height:300PX;
+            border-radius: 10px;
+        }
+        .achiever-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .achiever-card:hover .achiever-info {
+            opacity: 1;
+        }
+        .btn-custom {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #ff4d4d;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn-custom:hover {
+            background-color: #e63d3d;
+        }
+</style>
+</head>
+<body>
+    <div>
+       
+    <div class="container hero-section">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                  
+                <h1><span class="text-danger">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrp_tH6yOvEDwo7x83QKhfVkaVYSRnAd1Jow&s"height="50px"  alt="">
+               Join A+ Academy</span>
+            </h1>
+                <p class="h5">Pune's Best 9th-10th & IIT-JEE/NEET Coaching Classes</p>
+                <img src="https://th.bing.com/th/id/R.04e35b6d205fc0d1c38d7bd77ea2ce0e?rik=4uCMkFbB2R12lg&riu=http%3a%2f%2fwww.acct.edu.in%2fwp-content%2fuploads%2f2014%2f06%2fphotodune-7359491-students-with-computer-studying-at-school-l.jpg&ehk=yDNttyMcdrAlCJ1EOzzJeWTAi%2bg4V9uAe12OPMX%2bXO0%3d&risl=&pid=ImgRaw&r=0" alt="Students Image" class="img-fluid mt-3">
+            </div>
+            <div class="col-md-6">
+                <div class="form-section">
+                    <h3>Visit our Offline Centre Today!</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Enter your name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="grade" class="form-label">Select your grade</label>
+                            <select class="form-select" id="grade">
+                                <option selected>Select your grade</option>
+                                <option value="9">9th</option>
+                                <option value="10">10th</option>
+                                <option value="11">11th</option>
+                                <option value="12">12th</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Enter your email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Enter your phone number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Book a Visit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+   </div>
+   <div class="container text-center mt-5">
+    <h1>Welcome to <span class="highlight">A+ Academy</span></h1>
+    <p>Your Gateway to Success in IIT-JEE/NEET</p>
+</div>
+    </div>
+<!-- Sections -->
+<div class="container">
+    <div class="content-section">
+        <h2>Why Choose <span class="highlight">A+ Academy?</span></h2>
+        <ul>
+            <li>Experienced Faculty with Proven Track Records.</li>
+            <li>Personalized Attention to Every Student.</li>
+            <li>Comprehensive Study Material & Regular Practice Tests.</li>
+            <li>Interactive and Engaging Learning Environment.</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>What We Offer</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="highlight">IIT-JEE Coaching</h3>
+                <p>Advanced classes with in-depth coverage of concepts, detailed problem-solving sessions, and full-length mock tests to prepare you for IIT-JEE success.</p>
+            </div>
+            <div class="col-md-6">
+                <h3 class="highlight">NEET Coaching</h3>
+                <p>Expert-led classes focusing on biology, physics, and chemistry to prepare students for the NEET exam with clarity and confidence.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2><span class="highlight">Our Achievements</span></h2>
+        <p>
+            Over the years, A+ Academy has produced numerous toppers and helped thousands of students achieve their dreams of getting into premier institutes like IITs and top medical colleges.
+        </p>
+    </div>
+
+    <div class="content-section text-center">
+        <h2>Join <span class="highlight">A+ Academy</span> Today!</h2>
+        <p>
+            Take the first step towards a bright future. Enroll in A+ Academy and experience the best coaching for 9th-10th & IIT-JEE/NEET.
+        </p>
+        <a href="#Classes Offered " class="btn btn-primary btn-lg">Book a Visit</a>
+    </div>
+</div>
+<div class="container">
+    <!-- Contact Section -->
+    <div class="contact-section text-center">
+        <h2>Contact Details</h2>
+        <table class="table table-bordered mt-3">
+            <tbody>
+                <tr>
+                    <td><strong>Address</strong></td>
+                    <td>Lunkad Dreamland, Flat No-20, Second Floor, Above Star Network ICC, Viman Nagar, Pune 411014</td>
+                </tr>
+                <tr>
+                    <td><strong>Contact Number</strong></td>
+                    <td><a href="tel:+917744907484">+91 774-490-7484</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Email</strong></td>
+                    <td><a href="mailto:satyajeet@academy.co.in">satyajeet@academy.co.in</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<div class="para">
+    <h2>Classes Offered At <span class="highlight">A+ Academy</span></h2>
+<p>
+ At A+ Academy,we offermore than just traditional education-our 
+ courses incorporate innovation teaching methods,
+practical,applications,and real-world relevance to prepare 
+students for the challenges and opportunities of the future 
+</p>
+<div class="button-grid">
+    <!-- <img src="./weblearn4.jpg" height="100px" alt="">-->
+    <button> IX SSC </button>  
+    <button>X SSC</button>  
+    <button>X ICSE</button>
+    <button>IX CBSE</button> 
+    <button>X CBSE</button>  
+    <button>IX ICSE</button>
+    <button>VIII ICSE</button> 
+    <button>IIT-JEE</button>  
+    <button>NEET</button>   
+
+</div>
+
+  <div class="visit-button">
+    <button>
+        Book a Visit
+    </button>
+</div>
+         
+<div class="container">
+    <!-- FAQ Section -->
+    <div class="faq-section">
+        <h2>Frequently <span class="highlight">Asked Questions</span></h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        What Grades Does A+ Academy Cater To?
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        A+ Academy provides educational programs for students from grades 1 to 10, ensuring a comprehensive and continuous learning experience.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        How Is A+ Academy’s Curriculum Structured?
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Our curriculum is carefully designed to balance foundational principles with advanced concepts, ensuring students achieve their maximum potential.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        What Makes A+ Academy’s Teaching Approach Unique?
+                    </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        We combine personalized attention with modern teaching techniques to provide an engaging and effective learning environment.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        How Do You Ensure The Safety And Well-Being Of Students?
+                    </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        A+ Academy implements strict safety protocols and fosters a nurturing environment to prioritize the well-being of all students.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        Are Extracurricular Activities Offered At A+ Academy?
+                    </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we offer a variety of extracurricular activities to help students develop holistically and discover their talents beyond academics.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        How Are Assessments And Feedback Handled At A+ Academy?
+                    </button>
+                </h2>
+                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="faq6" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Regular assessments and detailed feedback are part of our teaching strategy to ensure students stay on track and improve continuously.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-custom btn-lg">Book a Visit</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- More About Curriculum Section -->
+        <div class="section">
+            <h2>More About <span class="highlight">A+ Academy Curriculum</span></h2>
+            <p class="content">
+                Discover the excellence of A+ Academy’s curriculum. Our meticulously designed educational framework is more than just a set of lessons—it’s a dynamic pathway to intellectual growth and personal development. At A+ Academy, we believe in a comprehensive approach that goes beyond textbooks, fostering a love for learning and nurturing critical thinking skills.
+            </p>
+            <p class="content">
+                Our curriculum spans a diverse range of subjects, carefully structured to cater to the needs and interests of students of grades 9th & 10th. With a focus on both foundational principles and advanced concepts, we aim to provide a well-rounded education that prepares students for the challenges of the future.
+            </p>
+        </div>
+        <div class="container achievers-section">
+            <h2>Some Of Our Achievers at <span>A+ Academy</span></h2>
+            <div class="row achievers-grid">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="achiever-card">
+                        <img src="./VisualsStock_AK58738.jpg">
+                        <div class="achiever-info">
+                            <h4>Navinya Kamble</h4>
+                            <p>95% X ICSE Boards</p>
+                        </div>
+                    </div>
+                </div>
+                
+             <!-- Card 2-->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="achiever-card">
+                        <img src="./download (1).jpg" alt="Student 2">
+                        <div class="achiever-info">
+                            <h4>Priya Kumar</h4>
+                            <p> 96% X CBSE</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 3 -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="achiever-card">
+                        <img src="./download.jpg" alt="Student 3">
+                        <div class="achiever-info">
+                            <h4>Shriya Kulkarni</h4>
+                            <p>89% ICSE</p>
+                        </div>
+                    </div>
+                </div>
+           
+                <!-- Card 4 -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="achiever-card">
+                        <img src="./GIRL.jpg" alt="Student 4">
+                        <div class="achiever-info">
+                            <h4>Sani Nani</h4>
+                            <p> 98% STATEBOARD X</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+     
+        <!-- Facilities Section -->
+        <div class="section">
+            <h2>Facilities After Joining <span class="highlight">A+ Academy</span></h2>
+            <p class="content">
+                Wondering how to secure the top rank in academics? Discover the winning formula through A+ Academy’s expert guidance and specialized coaching. Here are the features & facilities of A+ Academy:
+            </p>
+            <ul>
+                <li><strong>Updates:</strong> Day-to-day updates about students' attendance & performance through App & Message</li>
+                <li><strong>Targeted Practice:</strong> Systematic & well-planned approach towards the completion of the syllabus</li>
+                <li><strong>Frequent Test Series:</strong> Customized periodic tests according to the school syllabus</li>
+                <li> <strong>Expert Team:</strong> Expertise team of academicians</li>
+                <li ><strong>Personalized Training:</strong> Specialized batches & personal attention</li>
+                <li><strong>Separate Batches:</strong> Separate batches for scholars & weak students</li>
+                <li ><strong>Notes:</strong> Printed notes for easy understanding</li>
+                <li ><strong>A/C Classrooms:</strong> Fully ventilated A/C classrooms for convenience</li>
+                <li><strong>Audio Visual Aids:</strong> Enhanced learning using audio & visual aids</li>
+            </ul>
+        </div>
+    </div>
+    <div class="mt-5 text-center">
+      <h3>Conclusion</h3>
+      <p>
+        In conclusion, if you're in search of top-notch IIT-JEE/NEET coaching in Pune, Viman Nagar, 
+        A+ Academy is the place to be! Our expert instructors, engaging classes, and supportive 
+        environment are here to help you reach your academic dreams. Join our community today and 
+        let's conquer those exams together!
+      </p>
+      <a href="#" class="btn btn-danger btn-lg">Book a Visit</a>
+    </div>
+
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
